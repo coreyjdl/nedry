@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 print('Jurassic Park, System Security Interface')
 print('Version 4.0.5, Alpha E')
