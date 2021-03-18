@@ -1,6 +1,5 @@
 import os
 from time import sleep
-
 os.system('cls' if os.name == 'nt' else 'clear')
 
 print('Jurassic Park, System Security Interface')
@@ -11,7 +10,7 @@ print('access: PERMISSION DENIED.')
 input('> ')
 print('access: PERMISSION DENIED.')
 input('> ')
-os.popen('npm start')
+_ = os.popen('npm start  &>/dev/null &')
 print('access: PERMISSION DENIED', end='')
 sleep(.4)
 print('....and...')
