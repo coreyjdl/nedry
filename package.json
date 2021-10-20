@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "test": "electron .",
+    "start": "python3 Central_Park_Control_Console.py"
   },
   "author": "",
   "license": "ISC",
